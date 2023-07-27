@@ -1,0 +1,146 @@
+/* reset css */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+/* FIm do reset */
+
+#header,
+#footer {
+    background-color: #008374;
+}
+
+.prima {
+   background-color: #23A092;
+}
+/********/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+/* HEADER*/ 
+
+.nome {
+    font: 700 40px 'lucinda', sans-serif;   
+    color: white;
+}
+
+.item {
+    font: 500 25px 'lucinda', sans-serif;   
+    color: white;
+    margin-left: 50px;
+}
+/* MAIN */ 
+.prima .titulo {
+    font: 600 32px 'lucinda', sans-serif;   
+    color: white;
+}
+
+.prima .texto .new {
+    font: 500 23px 'lucinda', sans-serif;   
+    color: white;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: -35px;
+}
+.caixas .imagem img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.caixa {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    background-color: white;
+    height: 170px;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.plano {
+    background-color:#EDECEC;
+    text-align: center;
+    margin: 0 30px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.plano-tipo, .preco, .titulo {
+    font: 700 25px 'lucinda', sans-serif;   
+    padding: 30px 0 ;
+    
+}
+
+.beneficio {
+    font: 500 23px 'lucinda', sans-serif;
+    padding: 0 30px;   
+}
+
+.linha-la {
+    background-color: #F6A256;
+    height: 20px;
+    margin: 20px 0;
+}
+
+.linha-le {
+    height: 20px;
+    width:  20px 0;
+    background-color: #F6A256;
+    margin: 20px 0;
+}
+
+.conteudo .texto{
+    font: 400 20px 'lucinda', sans-serif;   
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+#footer .container {
+    height: 200px;
+}
+#footer .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input {
+     width: 85%;
+}
+
+#footer {
+    margin-top: 60px;
+}
+
